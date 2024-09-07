@@ -1,0 +1,5 @@
+---
+# defaults file for vscode
+burl: https://packages.microsoft.com/yumrepos/vscode
+gkey: https://packages.microsoft.com/keys/microsoft.asc
+

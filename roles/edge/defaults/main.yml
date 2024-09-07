@@ -1,0 +1,5 @@
+---
+# defaults file for edge
+burl: https://packages.microsoft.com/yumrepos/edge/
+gkey: https://packages.microsoft.com/keys/microsoft.asc
+

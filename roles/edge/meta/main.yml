@@ -1,0 +1,21 @@
+galaxy_info:
+  author: neil docherty 
+  description: install microsoft edge for rhel 8&9 systems 
+  company: Univeristy College London 
+
+
+  min_ansible_version: 2.1
+
+
+  platforms:
+    - name: RHEL
+      versions:
+        - 8
+        - 9
+
+  galaxy_tags:
+    - edge
+    - browser
+    - web
+    - microsoft
+
