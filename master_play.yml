@@ -1,0 +1,42 @@
+---
+- name: My workstation setup
+  hosts: localhost
+  become: true
+  gather_facts: true
+
+  vars:
+    user_name: support
+    soft:
+      - ntfs-3g
+      - yamllint
+
+
+  pre_tasks:
+    - name: Ensure epel 9 repository added and enabled
+      ansible.builtin.yum_repository:
+        name: EPEL-9
+        description: EPEL packages for RHEl9
+        baseurl: https://fedora.mirrorservice.org/epel/9/Everything/x86_64/
+        enabled: true
+        gpgcheck: true
+        gpgkey: https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-9
+
+    - name: Import epel rpm key
+      ansible.builtin.rpm_key:
+        state: present
+        key: https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-9
+
+  tasks:
+    - name: Ensure package list installed
+      ansible.builtin.dnf:
+        name: "{{ soft }}"
+        state: present
+
+    - name: Ensure ssh config file copied
+      ansible.builtin.copy:
+        src: files/ssh_config
+        dest: "/home/{{ user_name }}/.ssh/config"
+        mode: 0600
+        owner: "{{ user_name }}"
+        group: "{{ user_name }}"
+
