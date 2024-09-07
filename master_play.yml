@@ -6,9 +6,17 @@
 
   vars:
     user_name: support
+    git_repo: git@github.com:ucl-geog-it/ucl-geog-ansible.git
+    git_local: /home/support/git/ucl-geog-ansible
+    email_addr: "Neil Docherty <n.docherty@ucl.ac.uk>"
     soft:
       - ntfs-3g
       - yamllint
+      - remmina
+      - fwupd
+      - deja-dup
+      - code
+      - vim
 
 
   pre_tasks:
@@ -26,6 +34,17 @@
         state: present
         key: https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-9
 
+    - name: Ensure cockpit is enabled and started
+      ansible.builtin.service:
+        name: cockpit.socket
+        enabled: true
+        state: started
+      when: ansible_os_family == 'RedHat'
+  
+  roles:
+    - edge
+    - vscode
+
   tasks:
     - name: Ensure package list installed
       ansible.builtin.dnf:
@@ -40,3 +59,62 @@
         owner: "{{ user_name }}"
         group: "{{ user_name }}"
 
+    - name: Ensure user font directory exists
+      ansible.builtin.file:
+        path: "/home/{{ user_name }}/.fonts/"
+        owner: "{{ user_name }}"
+        group: "{{ user_name }}"
+        mode: '0755'
+        state: directory
+          
+    - name: Ensure intel-one font is present
+      ansible.builtin.unarchive:
+        src: https://github.com/intel/intel-one-mono/releases/download/V1.4.0/otf.zip
+        dest: "/home/{{ user_name }}/.fonts/"
+        remote_src: yes
+
+    - name: Enable the fwupd.service
+      ansible.builtin.service:
+        name: fwupd
+        state: started
+        enabled: true
+
+    - name: Ensure git directory is created
+      ansible.builtin.file:
+        path: "/home/{{ user_name }}/git/"
+        state: directory
+        mode: '0755'
+        owner: "{{ user_name }}"
+        group: "{{ user_name }}"
+
+    - name: Clone git repository "{{ git_repo }}"
+      become: false
+      ansible.builtin.git:
+        repo: "{{ git_repo }}"
+        dest: "{{ git_local }}"
+        single_branch: yes
+        version: main
+        accept_hostkey: yes
+      tags: git_clone
+
+    - name: Ensure vim setup for yaml
+      ansible.builtin.copy:
+        src: files/yaml_vim
+        dest: "/home/{{ user_name }}/.vimrc"
+        owner: "{{ user_name }}"
+        group: "{{ user_name }}"
+        mode: '0660'
+
+    - name: Ensure yaml config directory is create
+      ansible.builtin.file:
+        state: directory
+        path: "/home/{{ user_name }}/.config/yamllint/"
+        owner: "{{ user_name }}"
+        group: "{{ user_name }}"
+
+    - name: Ensure yamllint config 
+      ansible.builtin.copy:
+        src: files/yaml_config
+        dest: "/home/{{ user_name }}/.config/yamllint/config"
+        owner: "{{ user_name }}"
+        group: "{{ user_name }}"

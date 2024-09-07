@@ -1,0 +1,690 @@
+Host	node27.geog.ucl.ac.uk
+        HostName node27.geog.ucl.ac.uk
+        User rmhzndo 
+
+Host    anchorage
+        User support
+        HostName anchorage.geog.ucl.ac.uk
+
+Host    brampton
+        User support
+        HostName brampton.geog.ucl.ac.uk
+        #proxyCommand ssh -W brampton.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    chicago
+        User support
+        HostName chicago.geog.ucl.ac.uk
+        #proxyCommand ssh -W chicago.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    durban
+        User support
+        HostName durban.geog.ucl.ac.uk
+        #proxyCommand ssh -W durban.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    essen
+        User support
+        HostName essen.geog.ucl.ac.uk
+        #proxyCommand ssh -W essen.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    funchal
+        User support
+        HostName funchal.geog.ucl.ac.uk
+        #proxyCommand ssh -W funchal.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    geelong
+        User support
+        HostName geelong.geog.ucl.ac.uk
+        #proxyCommand ssh -W geelong.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    havana
+        User support
+        HostName havana.geog.ucl.ac.uk
+        #proxyCommand ssh -W havana.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    incheon
+        User support
+        HostName incheon.geog.ucl.ac.uk
+        #proxyCommand ssh -W incheon.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    jacksonville
+        User support
+        HostName jacksonville.geog.ucl.ac.uk
+        #proxyCommand ssh -W jacksonville.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    kyiv
+        User support
+        HostName kyiv.geog.ucl.ac.uk
+        #proxyCommand ssh -W kyiv.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    lahore
+        User support
+        HostName lahore.geog.ucl.ac.uk
+        #proxyCommand ssh -W lahore.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host	mogadishu
+        User support
+        HostName mogadishu.geog.ucl.ac.uk
+        #proxyCommand ssh -W mogadishu.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host    nanjing
+        User support
+        HostName nanjing.geog.ucl.ac.uk
+        #proxyCommand ssh -W nanjing.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host 	oslo
+        User support
+        HostName oslo.geog.ucl.ac.uk
+        #proxyCommand ssh -W oslo.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host 	pretoria
+        User support
+        HostName pretoria.geog.ucl.ac.uk
+        #proxyCommand ssh -W pretoria.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host	quebec
+        User support
+        HostName quebec.geog.ucl.ac.uk
+        #proxyCommand ssh -W quebec.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host 	rosario
+        User support
+        HostName rosario.geog.ucl.ac.uk
+        #proxyCommand ssh -W rosario.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host	sapporo
+        User support
+        HostName sapporo.geog.ucl.ac.uk
+        #proxyCommand ssh -W sapporo.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host	touba
+        User support
+        HostName touba.geog.ucl.ac.uk
+        #proxyCommand ssh -W touba.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host	uman
+        User support
+        HostName uman.geog.ucl.ac.uk
+        #proxyCommand ssh -W uman.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host 	valencia
+        User support
+        HostName valencia.geog.ucl.ac.uk
+        #proxyCommand ssh -W valencia.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host 	worcester
+        User support
+        HostName worcester.geog.ucl.ac.uk
+        #proxyCommand ssh -W worcester.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host  	xiva
+        User support
+        HostName xiva.geog.ucl.ac.uk
+        #proxyCommand ssh -W xiva.geog.ucl.ac.uk:22 rmhzndo@ssh-gateway.ucl.ac.uk
+
+Host	yokohama
+	User support
+	HostName yokohama.geog.ucl.ac.uk
+        
+Host	zarqa
+	User support
+	HostName zarqa.geog.ucl.ac.uk
+
+Host	apopa
+	User support
+	HostName apopa.geog.ucl.ac.uk
+
+Host	bogota
+	User support
+	HostName bogota.geog.ucl.ac.uk
+
+Host	cordoba
+	User support
+	HostName cordoba.geog.ucl.ac.uk
+
+Host    dodoma
+        User support 
+        HostName dodoma.geog.ucl.ac.uk
+
+Host	adelaide
+	User support
+	HostName adelaide.geog.ucl.ac.uk
+
+Host	brasilia
+	User support
+	HostName brasilia.geog.ucl.ac.uk
+
+Host	chennai
+	User support
+	HostName chennai.geog.ucl.ac.uk
+
+Host	dubai
+	User support
+	HostName dubai.geog.ucl.ac.uk
+
+Host	epworth
+	User support
+	HostName epworth.geog.ucl.ac.uk
+
+Host	fontana
+	User support
+	HostName fontana.geog.ucl.ac.uk
+
+Host	glasgow
+	User support
+	HostName glasgow.geog.ucl.ac.uk
+
+Host	hamburg
+	User support
+	HostName hamburg.geog.ucl.ac.uk
+
+Host	izmir
+	User support
+	HostName izmir.geog.ucl.ac.uk
+
+Host	jeddah
+	User support
+	HostName jeddah.geog.ucl.ac.uk
+
+Host	turing
+	User support
+	HostName turing.geog.ucl.ac.uk
+
+Host	s01
+	User support
+	HostName s01.geog.ucl.ac.uk
+
+Host	s02
+	User support
+	HostName s02.geog.ucl.ac.uk
+
+Host	s03
+	User support
+	HostName s03.geog.ucl.ac.uk
+
+Host	s04
+	User support
+	HostName s04.geog.ucl.ac.uk
+
+Host	s05
+	User support
+	HostName s05.geog.ucl.ac.uk
+
+Host	sc01
+	User admin
+	HostName sc01.geog.ucl.ac.uk
+
+Host	sc03
+	User support
+	HostName 10.0.22.8
+
+Host	sc04
+	User support
+	HostName 10.0.22.10
+
+Host	sc05
+	User support
+	HostName 10.0.22.12
+
+Host	sc06
+	User support
+	HostName 10.0.22.13
+
+Host	puppet01
+	User support
+	HostName puppet01.geog.ucl.ac.uk
+
+Host	amphora
+	User slmirmhzndo
+	HostName caal-amphor01.ad.ucl.ac.uk
+
+Host	jupyter
+	User slmirmhzndo
+	HostName caal-jpyter01.ad.ucl.ac.uk
+
+Host	cpuppet
+	User slmirmhzndo
+	HostName caal-puppet01.ad.ucl.ac.uk
+
+Host	n0
+	User support
+	HostName n01.geog.ucl.ac.uk
+
+Host	n01
+	User support
+	HostName n01.geog.ucl.ac.uk
+
+Host	n02
+	User support
+	HostName n02.geog.ucl.ac.uk
+
+Host	n03
+	User support
+	HostName n03.geog.ucl.ac.uk
+
+Host	n04
+	User support
+	HostName n04.geog.ucl.ac.uk
+
+Host	n05
+	User support
+	HostName n05.geog.ucl.ac.uk
+
+Host	n06
+	User support
+	HostName n06.geog.ucl.ac.uk
+
+Host	n07
+	User support
+	HostName n07.geog.ucl.ac.uk
+
+Host	n08
+	User support
+	HostName n08.geog.ucl.ac.uk
+
+#Host	store01
+#	User root
+#	HostName store01.geog.ucl.ac.uk
+
+#Host	store02
+#	User root
+#	HostName store02.geog.ucl.ac.uk
+
+#Host	store03
+#	User root
+#	HostName store03.geog.ucl.ac.uk
+
+#Host	store04
+#	User root
+#	HostName store04.geog.ucl.ac.uk
+
+#Host	store05
+#	User root
+#	HostName store05.geog.ucl.ac.uk
+
+#Host	store06
+#	User root
+#	HostName store06.geog.ucl.ac.uk
+
+#Host	core01
+#	User root
+#	HostName core01.geog.ucl.ac.uk
+
+#Host	core02
+#	User root
+#	HostName core02.geog.ucl.ac.uk
+
+Host	okinawa
+	User support 
+	HostName okinawa.geog.ucl.ac.uk
+
+Host	gladys
+	User support
+	HostName gladys.geog.ucl.ac.uk
+
+#Host	core21
+#	User support
+#	HostName core21.geog.ucl.ac.uk
+
+#Host	core22
+#	User support
+#	HostName core22.geog.ucl.ac.uk
+
+#Host	core23
+#	User support
+#	HostName core23.geog.ucl.ac.uk
+
+#Host	core26
+#	User support
+#	HostName core26.geog.ucl.ac.uk
+
+#Host	core27
+#	User support
+#	HostName core27.geog.ucl.ac.uk
+
+#Host	core28
+#	User support
+#	HostName core28.geog.ucl.ac.uk
+
+#Host	core29
+#	User support
+#	HostName core29.geog.ucl.ac.uk
+
+#Host	ada
+#	User support
+#	HostName 10.0.22.5
+
+Host	lovelace
+	User support
+	HostName 10.0.22.11
+
+Host	mhamilton
+	User support
+	HostName 10.0.22.7
+
+Host	tyche
+	User support
+	HostName tyche.geog.ucl.ac.uk
+
+Host	hephaestus
+	User support
+	HostName hephaestus.geog.ucl.ac.uk
+
+Host	lelantos
+	User support
+	HostName lelantos.geog.ucl.ac.uk
+
+Host	hermes
+	User support
+	HostName hermes.geog.ucl.ac.uk
+
+Host	bhutan
+	User support
+	HostName bhutan.geog.ucl.ac.uk
+
+Host	honduras
+	User support
+	HostName honduras.geog.ucl.ac.uk
+
+Host	artemis
+	User support
+	HostName artemis.geog.ucl.ac.uk
+
+Host	nemesis
+	User support 
+	HostName nemesis.geog.ucl.ac.uk
+
+Host	dijbouti
+	User root
+	HostName dijbouti.geog.ucl.ac.uk
+	
+Host	node29
+	User support
+	HostName node29.geog.ucl.ac.uk
+	
+Host	node28
+	User support
+	HostName node28.geog.ucl.ac.uk
+	
+Host	node27
+	User support
+	HostName node27.geog.ucl.ac.uk
+	
+Host	node26
+	User support
+	HostName node26.geog.ucl.ac.uk
+	
+#Host	node23
+#	User it-support
+#	HostName node23.geog.ucl.ac.uk
+	
+#Host	node22
+#	User it-support
+#	HostName node22.geog.ucl.ac.uk
+	
+#Host	node21
+#	User it-support
+#	HostName node21.geog.ucl.ac.uk
+
+Host	cdrc-n01
+	User support
+	HostName cdrc-n01.geog.ucl.ac.uk
+
+Host	cdrc-n02
+	User support
+	HostName cdrc-n02.geog.ucl.ac.uk
+
+Host	cdrc-n03
+	User support
+	HostName cdrc-n03.geog.ucl.ac.uk
+
+Host	cdrc-n04
+	User support
+	HostName cdrc-n04.geog.ucl.ac.uk
+
+Host	cdrc-n05
+	User support
+	HostName cdrc-n05.geog.ucl.ac.uk
+
+Host	cdrc-n06
+	User support
+	HostName cdrc-n06.geog.ucl.ac.uk
+
+Host	cdrc-n07
+	User support
+	HostName cdrc-n07.geog.ucl.ac.uk
+
+Host	cdrc-n08
+	User support
+	HostName cdrc-n08.geog.ucl.ac.uk
+
+Host	cdrc-db
+	User support
+	HostName cdrc-db.geog.ucl.ac.uk
+
+Host	cdrc-archive
+	User support
+	HostName cdrc-archive.geog.ucl.ac.uk
+
+Host	cdrc-highmem
+	User support
+	HostName cdrc-highmem.geog.ucl.ac.uk
+
+Host	cdrc-footfall
+	User support
+	HostName cdrc-footfall.geog.ucl.ac.uk
+
+Host	cdrc-store01
+	User support
+	HostName cdrc-store01.geog.ucl.ac.uk
+
+Host	cdrc-store02
+	User support
+	HostName cdrc-store02.geog.ucl.ac.uk
+
+Host	cdrc-n01
+	User support
+	HostName cdrc-n01.geog.ucl.ac.uk
+
+Host	cdrc-n02
+	User support
+	HostName cdrc-n02.geog.ucl.ac.uk
+
+Host	cdrc-n03
+	User support
+	HostName cdrc-n03.geog.ucl.ac.uk
+
+Host	cdrc-n04
+	User support
+	HostName cdrc-n04.geog.ucl.ac.uk
+
+Host	cdrc-s02
+	User support
+	HostName cdrc-s02.geog.ucl.ac.uk
+
+Host	cdrc-s01
+	User support
+	HostName cdrc-s01.geog.ucl.ac.uk
+
+Host	gladys
+	User support
+	HostName gladys.geog.ucl.ac.uk
+
+Host	julie
+	User support
+	HostName julie.geog.ucl.ac.uk
+
+#T5600 workstations
+Host	fiji
+	User support
+	HostName fiji.geog.ucl.ac.uk
+
+Host	ghana
+	User support
+	HostName ghana.geog.ucl.ac.uk
+
+Host	iceland
+	User support
+	HostName iceland.geog.ucl.ac.uk
+
+Host	cuba
+	User support
+	HostName cuba.geog.ucl.ac.uk
+
+Host	estonia
+	User support
+	HostName estonia.geog.ucl.ac.uk
+
+Host	andorra
+	User support
+	HostName andorra.geog.ucl.ac.uk
+
+Host	bhutan
+	User it-support
+	HostName bhutan.geog.ucl.ac.uk
+
+Host	djibouti
+	User support
+	HostName djibouti.geog.ucl.ac.uk
+
+Host	honduras
+	User it-support
+	HostName honduras.geog.ucl.ac.uk
+#Precsion 3660 workstations
+Host	aksi
+	User support
+	HostName aksi.geog.ucl.ac.uk
+
+Host	bathurst
+	User support
+	HostName bathurst.geog.ucl.ac.uk
+
+Host	crete
+	User support
+	HostName crete.geog.ucl.ac.uk
+
+Host	daga
+	User support
+	HostName daga.geog.ucl.ac.uk
+
+Host	easter
+	User support
+	HostName easter.geog.ucl.ac.uk
+
+Host	flores
+	User support
+	HostName flores.geog.ucl.ac.uk
+
+Host	guam
+	User support
+	HostName guam.geog.ucl.ac.uk
+
+Host	hatoma
+	User support
+	HostName hatoma.geog.ucl.ac.uk
+
+Host	ibiza
+	User support
+	HostName ibiza.geog.ucl.ac.uk
+
+Host	jersey
+	User support
+	HostName jersey.geog.ucl.ac.uk
+
+Host	kish
+	User support
+	HostName kish.geog.ucl.ac.uk
+
+Host	lombok
+	User support
+	HostName lombok.geog.ucl.ac.uk
+
+Host	mota
+	User support
+	HostName mota.geog.ucl.ac.uk
+
+Host	nuku
+	User support
+	HostName nuku.geog.ucl.ac.uk
+
+Host	otok
+	User support
+	HostName otok.geog.ucl.ac.uk
+
+Host	penang
+	User support
+	HostName penang.geog.ucl.ac.uk
+
+Host	quadra
+	User support
+	HostName quadra.geog.ucl.ac.uk
+
+Host	rhodes
+	User support
+	HostName rhodes.geog.ucl.ac.uk
+
+Host	sardinia
+	User support
+	HostName sardinia.geog.ucl.ac.uk
+
+Host	tortuga
+	User support
+	HostName tortuga.geog.ucl.ac.uk
+
+Host	urup
+	User support
+	HostName urup.geog.ucl.ac.uk
+
+Host	vostok
+	User support
+	HostName vostok.geog.ucl.ac.uk
+
+Host	walrus
+	User support
+	HostName walrus.geog.ucl.ac.uk
+
+Host	xiamen
+	User support
+	HostName xiamen.geog.ucl.ac.uk
+
+Host	caal-puppet
+	User slmirmhzndo
+	HostName caal-puppet01.ad.ucl.ac.uk
+
+Host	rhel01-bart
+	User support
+	HostName 128.40.150.53
+
+Host	mosquito
+	User zadmin
+	Hostname 128.40.249.83
+
+Host	eos
+	user support
+	Hostname eos.geog.ucl.ac.uk
+
+Host	selene
+	user support
+	Hostname selene.geog.ucl.ac.uk
+
+Host	ryukyu
+	user support
+	Hostname ryukyu.geog.ucl.ac.uk 
+
+Host	zinc
+	user support
+	Hostname 10.0.22.55
+
+Host	byron
+	user support
+	Hostname 128.40.214.149
+        ForwardAgent yes
+
+Host	raspberrypi
+	user pi
+	hostname raspberrypi
+
+Host	Precision-T
+	user neil
+	hostname neil-Precision-T7600.broadband
+
+
